@@ -1,3 +1,6 @@
+Logs when ran the frontend server which opens a websocket connection to ws://127.0.0.1:8000/api/  :
+
+
 WebSocket HANDSHAKING /api/ [127.0.0.1:50650]
 ws connected {'type': 'websocket.connect'}
 HTTP GET /api/ 200 [0.01, 127.0.0.1:50660]
@@ -8,7 +11,7 @@ ws connected {'type': 'websocket.connect'}
 WebSocket DISCONNECT /api/ [127.0.0.1:50698]
 ws disconnected {'type': 'websocket.disconnect', 'code': 1006}
 WebSocket HANDSHAKING /api/ [127.0.0.1:50740]
-Logs when ran the frontend server which opens a websocket connection to ws://127.0.0.1:8000/api/  :
+
 
 ```ws connected {'type': 'websocket.connect'}
 WebSocket DISCONNECT /api/ [127.0.0.1:50740]
