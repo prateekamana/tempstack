@@ -8,3 +8,5 @@ urlpatterns = [
 	path('<pk>', ArticlesDetailedView.as_view()),
 	
 ]
+
+print('Pooh bear : ', ArticlesListView.as_view())
